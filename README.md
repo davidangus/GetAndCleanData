@@ -5,7 +5,7 @@ The data can be downloaded from the following [link](https://d396qusza40orc.clou
 For more information on the data, follow this [link](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
 
 Once you have downloaded the data, simply extract the zip so the extracted directory is in the same
-directory as the run_analysis.R.
+directory as the run_analysis.R and execute the run_analysis.R file from R/RStudio via source(run_analysis.R), making sure you set your working directory to where the R file and data directory are stored (setwd() function).
 
 The output will consist of two tidy data sets contained in the data.frames (in.data,in.mean):
  1. A row for each sample of a person's activity, with only the mean and standard deviation measures.
